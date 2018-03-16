@@ -17,6 +17,7 @@
     "jsonic": "^0.3.0",
     "object-assign": "^4.1.1",
     "request": ">= 2.35.0",
+    "retry": "^0.10.1",
     "signalr-client": "0.0.17"
   },
   "repository": {

@@ -5,6 +5,8 @@
  * ============================================================
  * Copyright 2014-, Adrian Soluch, David Parlevliet
  * Released under the MIT License
+ *
+ * Modified by Alex He
  * ============================================================ */
 
 var NodeBittrexApi = function(options) {
@@ -324,7 +326,7 @@ var NodeBittrexApi = function(options) {
         callback(wsclient);
       }
       
-    });
+    }, {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/47.0 (Chrome)'});
 
     return wsclient;
   };
