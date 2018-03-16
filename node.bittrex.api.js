@@ -326,7 +326,10 @@ var NodeBittrexApi = function(options) {
         callback(wsclient);
       }
       
-    }, {'Referer': 'https://www.google.ca', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393'});
+    }, {'Referer': 'https://www.google.ca', 
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+        'cookie': '__cfduid=check_browser_console; cf_clearance=check_browser_console'
+       });
 
     return wsclient;
   };
