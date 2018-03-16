@@ -326,7 +326,7 @@ var NodeBittrexApi = function(options) {
         callback(wsclient);
       }
       
-    }, {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/47.0 (Chrome)'});
+    }, {'Referer': 'https://www.google.ca', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393'});
 
     return wsclient;
   };
